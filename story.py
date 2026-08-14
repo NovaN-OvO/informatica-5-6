@@ -28,9 +28,12 @@ def main():
     print("This is your story:")
     print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will finally {goal}.")
 
+    ucolor = color.upper()
+    uadj = adj.upper()
+    ugoal = goal.upper()
     print()
     print("This is your story:")
-    print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will finally {goal}.")
+    print(f"AT DAWN THE SKY TURNED {ucolor}, AND THE AIR FELT {uadj}. I DECIDED TODAY I WILL FINALLY {ugoal}!")
 
 if __name__ == "__main__":
     main()
