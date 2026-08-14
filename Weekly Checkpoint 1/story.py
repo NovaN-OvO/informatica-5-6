@@ -27,13 +27,11 @@ def main():
     print()
     print("This is your story:")
     print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will finally {goal}.")
-
-    ucolor = color.upper()
-    uadj = adj.upper()
-    ugoal = goal.upper()
     print()
-    print("This is your story:")
-    print(f"AT DAWN THE SKY TURNED {ucolor}, AND THE AIR FELT {uadj}. I DECIDED TODAY I WILL FINALLY {ugoal}!")
+    print("This is your story:".upper())
+    print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will finally {goal}.".upper())
+    #The stirng is the thing in the "print" function!
+
 
 if __name__ == "__main__":
     main()
