@@ -30,7 +30,8 @@ def main():
     print()
     print("This is your story:".upper())
     print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will finally {goal}.".upper())
-    #The stirng is the thing in the "print" function!
+    #From ^........................................to.............................................................^ here
+    # The stirng is the thing in the "print" function!
 
 
 if __name__ == "__main__":
