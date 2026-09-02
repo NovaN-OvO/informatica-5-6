@@ -6,7 +6,7 @@ def main():
 
     if coin == 1:
         coin = "heads"
-    elif coin == 2:
+    else coin == 2:
         coin = "tails"
 
     print(f"Coin: {coin}") #print("coin: ", coin)
