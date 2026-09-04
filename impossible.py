@@ -80,7 +80,8 @@ def main():
                 break
 
     if diff == "Impossible":
-        
+
+        att = 100
         print("Guess 1-1000000")
         guess = ""
         number = random.randint(1,1000000)
