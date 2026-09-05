@@ -26,9 +26,10 @@ def main():
             if streak == 1:
                 star == star
             elif streak == 2:
-                star += star
+                star = "⭐⭐"
             else:
-                star += (star / star)
+                star = "⭐⭐⭐"
+
             print(f"Streak: {star}")
 
         elif streak == 3:
