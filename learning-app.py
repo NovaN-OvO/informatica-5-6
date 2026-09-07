@@ -1,6 +1,6 @@
 import random
 def main():
-    print("MATEMAKINA!")
+    print("MATEMAKINA!") #matematicacitametam
     star = "⭐"
     streak = 0
     a = ""
