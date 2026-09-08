@@ -13,15 +13,15 @@ def main():
         ttime = round(ttime, 0)
         print(f"It took you {ttime}s to finish the bellwork.")
 
-        if ttime <= 300:
-            points = (300 - ttime) * 16.6
+        if ttime <= 3:
+            points = (3 - ttime) * 18.5
             points = round(points, 0)
             print(f"Your score is: {points}")
-            if points <= 5000:
+            if points >= 5000:
                 print("Impossible... You're a robot!")
-            elif points > 3500:
+            elif points > 3000:
                 print("Good job!")
-            elif points < 3500:
+            elif points > 1500:
                 print("Keep going!")
             else:
                 print("Keep working!")
