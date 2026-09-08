@@ -17,11 +17,14 @@ def main():
             points = (300 - ttime) * 16.6
             points = round(points, 0)
             print(f"Your score is: {points}")
-            if points == 5000:
+            if points <= 5000:
                 print("Impossible... You're a robot!")
             elif points > 3500:
                 print("Good job!")
-            elif points >
+            elif points < 3500:
+                print("Keep going!")
+            else:
+                print("Keep working!")
 
         else:
             print("Time's up!")
