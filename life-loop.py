@@ -20,9 +20,9 @@ def main():
             if points >= 5000:
                 print("Impossible... You're a robot!")
             elif points > 3000:
-                print("Good job!")
+                print("Excellent job!")
             elif points > 1500:
-                print("Keep going!")
+                print("Good job!")
             else:
                 print("Keep working!")
 
