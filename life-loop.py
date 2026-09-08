@@ -1,6 +1,7 @@
 import time
 def main():
 
+    dur = time.time()
     start = -300
     begin = ""
     print("Welcome to the bellwork timer.")
