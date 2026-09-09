@@ -7,12 +7,10 @@ def main():
     print("You will have 5 minutes to complete the bellwork")
     begin = input("Press enter to finish the timer. ")
     if begin == "":
-
         dur2 = time.time()
         ttime = dur2 - dur1
         ttime = round(ttime, 0)
         print(f"It took you {ttime}s to finish the bellwork.")
-
         if ttime <= 300:
             points = (300 - ttime) * 18.5
             points = round(points, 0)
@@ -28,8 +26,6 @@ def main():
 
         else:
             print("Time's up!")
-
-
 
 if __name__ == "__main__":
     main()
