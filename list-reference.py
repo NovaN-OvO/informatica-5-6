@@ -10,6 +10,6 @@ def main():
     print(f"Example: In the same list, the min() function will return {result2}")
     print()
     print("The sum() function is a function that add up all the values in a iterable")
-    print(f"Example: In the same list, the min() function will return {result3}")
+    print(f"Example: In the same list, the sum() function will return {result3}")
 if __name__ == "__main__":
     main()

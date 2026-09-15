@@ -7,10 +7,11 @@ def main():
             if add_del == "add":
                 to_do.insert(0, input("Add an item to your to-do list: ").strip().lower())
                 print(to_do)
-            elif add_del == "delete":
+                print(f"You have {len(to_do)} taks left.")
+            elif add_del == "complete":
                 to_do.remove(input("Chose what item you want to complete: ").strip().lower())
                 print(to_do)
-
+                print(f"You have {len(to_do)} taks left.")
             elif add_del == "exit":
                 print("Goodbye!")
                 break
