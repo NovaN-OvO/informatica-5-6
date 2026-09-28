@@ -1,6 +1,5 @@
 def main():
-    num = 1
-    while num > 0:
+    while True:
         num = int(input("Enter a number (1-10): "))
         if num < 0:
             print("Type a number from 1 to 10.")

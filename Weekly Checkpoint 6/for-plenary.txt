@@ -1,0 +1,6 @@
+A while loop is a loop that follows a condition to be executed, and it will stop either when the condition is False or the user fulfills a condition that breaks the while loop.
+
+A for loop is a loop that doesn't requires a condition to repeat commands, only a range that will define how many times the loop will be repeated.
+
+They both are loops but in my words, I'd say that a while loop is more "aggressive" beacuse it may happen that the loop repeates indefinitely. While the for loop only repeats itself the number of the assigned range.
+In other words, it's easier and simpler to handle a for loop than a while loop because a for loop can require less conditions.
