@@ -1,1 +1,1 @@
-print("helolo wokes!")
+print("helolo woke!")
