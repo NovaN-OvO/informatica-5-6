@@ -13,8 +13,7 @@ def main():
                     res_u = int(input(f"{x} times {max_value} is "))
                     if res_u == (x * max_value):
                         print("Correct.")
-                        if x == max_value:
-                            i = False
+                        i = False
                     else:
                         print("Incorrect.")
                 except ValueError:
