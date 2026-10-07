@@ -8,7 +8,7 @@ int main(){
   int month2 = 0;
   std::cout << "Enter the first month: \n";
   std::cin >> month1;
-  std::cout << "Enter the second month: ";
+  std::cout << "\nEnter the second month: ";
   std::cin >> month2;
   double mom = ((month2 - month1) / month1) * 100;
   std::cout << mom;

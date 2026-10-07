@@ -5,5 +5,6 @@ def main():
     print("b" in fruit)
     print(fruits[1])
     print(fruit[0])
+    print(len("apple"))
 if __name__ == "__main__":
     main()
