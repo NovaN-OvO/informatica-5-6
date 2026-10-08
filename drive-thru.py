@@ -24,6 +24,9 @@ def get_item(order):
         print("🍪")
     else:
         print("Sorry, not in our menu.")
+
+    # Option 2
+
     # kitchen = ["🍔", "🍟", "🥤", "🍦", "🍪"]
     #if 1 <= order <= 5:
         #print(kitchen[order - 1])
