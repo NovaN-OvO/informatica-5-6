@@ -3,22 +3,25 @@ def main():
     # 13 = 1101
     #list = [binary]
     print("Binary to Decimal Converter")
-    binary = int(input("Enter a binary number: "))
+    binary = input("Enter a binary number: ")
     binary_to_decimal(binary)
 
 def binary_to_decimal(num):
-    conv = [num]
-    print(conv)
     make = []
-    for i in range(num):
-        make.append[i]
-        suma = conv[i]
-        binary = conv[i]
-        binary += (conv[i] * 2) + suma
-        print(make)
-    # Up to 8 digits
-    # Convert a string into a list of numbers, no, lists of singular numbers and then
-    # One by one change the value to the binary
+    digit = len(make)
+    for i in range(len(num)):
+        make.append(int(num[i]))
+        if max(make) > 1:
+            print("That's not a binary value.")
+            break
+        digit = len(make)
+        digit2 = digit * make[i]
+        decimal = digit2 + (2 ** i)
 
+
+    print(decimal)
+
+        #(6 * x) + (5 + 0)
+        # Almost :(((
 if __name__ == "__main__":
     main()
