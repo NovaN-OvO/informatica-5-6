@@ -5,7 +5,7 @@ def main():
     print("b" in fruit)
     print(fruits[1])
     print(fruit[0])
-    for into in fruit:
+    for into in range(len(fruit)):
         print(fruit[into])
     print("a" in fruit)
     print(len("apple"))

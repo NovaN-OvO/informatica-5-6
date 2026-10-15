@@ -22,9 +22,6 @@ def main():
                                     i = False
                                 else:
                                     print("Incorrect.")
-
-
-
                             except ValueError:
                                     print("You didn't enter a number.")
             except ValueError:
